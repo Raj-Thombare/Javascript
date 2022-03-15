@@ -17,3 +17,5 @@ b.push(10);
 console.log(a)
 console.log(b)
 
+// Pass by value shares the value and Pass by reference shares the actual variable
+
