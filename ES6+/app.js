@@ -60,11 +60,11 @@
 // names.bowl = 'Bumrah'
 
 // for(let name of names){
-//     console.log(name)
+//     console.log(name) // 'raj', 'rakaa', 'rohit', 'bairstow', 'stokes'
 // }
 
 // for(let name in names){
-//     console.log(name)
+//     console.log(name) // 0 1 2 3 4
 // }
 
 // For of VS For in
