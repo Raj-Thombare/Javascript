@@ -27,10 +27,14 @@ let x = (y = 10, z = 20) => {
 x();
 */
 
-/* Includes */
+/* Includes 
 
 var myArray = [1, 2, 3, 4, 5];
 console.log(myArray.includes(5)); // true
 console.log(myArray.includes(11)); // false
+
+*/
+
+
 
 
