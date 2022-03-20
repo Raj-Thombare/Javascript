@@ -44,7 +44,7 @@ function sleep(){
 
 sleep();
 
-// --> Illegal Shadowing: you can shadow var with let but you cannot shadow let with var, that is known as illegal shadowing!
+/* --> Illegal Shadowing: you can shadow var with let but you cannot shadow let with var, that is known as illegal shadowing!
 
  function walk(){
     var a = 1;
@@ -59,14 +59,14 @@ sleep();
  }
 
  walk();
-
+*/
 
 
 /*
 
 3) Declaration:
    --> you can declare var variables multiple times but cannot declare let and const more than once!
-*/
+
     var a = 1; 
     var a = 2; 
 
@@ -75,19 +75,19 @@ sleep();
 
     const c = 10;
     const c = 11; // uncaught SyntaxError: 'c' has already been declared
-
+*/
 
 
 /*
 
 4) Initialization:
   --> you have to initialize const declaration unlike var and let!
-*/
+
     var a; // valid
     let b; // valid
     const c; // missing initializer in const declaration
 
-
+*/
 
 /*
 
