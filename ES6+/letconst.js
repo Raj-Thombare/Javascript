@@ -137,6 +137,7 @@ var a = 10;
 
 
 
+
 /* padStart & padEnd */
 
 // padStart --> Pads on start of the string with another string until it reaches its length
