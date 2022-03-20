@@ -6,6 +6,7 @@
     --> Let and Const are Block-scoped while var is Function-scoped!
     --> Scope: scope is a section/region in your program where a variable have its existence or valid! and beyond that region it's not accessible.
      --> let and const are stored in separate memory space while var is stored in global object memory space that's why var variables are accessible outside the scope!
+*/
 
 if(true){
     let a = 10;
@@ -24,12 +25,13 @@ function run(){
 console.log(x) // ReferenceError: x is not defined
 run();
 
-*/
+
 
 /*
 
 2) Variable Shadowing: if you have 2 variables with the same name but 1 in a certain scope(inner scope) and the other one in its outer scope then when you call that variable, the value assigned to the variable in the inner scope will be stored in the variable in the memory space! this is called as variable shadowing or shadowing!
 
+*/
 function sleep(){
     var a = 100;
     if(true){
@@ -42,7 +44,7 @@ function sleep(){
 
 sleep();
 
---> Illegal Shadowing: you can shadow var with let but you cannot shadow let with var, that is known as illegal shadowing!
+// --> Illegal Shadowing: you can shadow var with let but you cannot shadow let with var, that is known as illegal shadowing!
 
  function walk(){
     var a = 1;
@@ -58,13 +60,13 @@ sleep();
 
  walk();
 
-*/
+
 
 /*
 
 3) Declaration:
    --> you can declare var variables multiple times but cannot declare let and const more than once!
-
+*/
     var a = 1; 
     var a = 2; 
 
@@ -74,24 +76,24 @@ sleep();
     const c = 10;
     const c = 11; // uncaught SyntaxError: 'c' has already been declared
 
-*/
+
 
 /*
 
 4) Initialization:
   --> you have to initialize const declaration unlike var and let!
-
+*/
     var a; // valid
     let b; // valid
     const c; // missing initializer in const declaration
 
-*/
+
 
 /*
 
 5) Re-initialization:
   --> you cannot reinitialize or update const unlike let & var!
-
+*/
   var a = 10;
     a = 22; 
     console.log(a) //22
@@ -104,7 +106,7 @@ sleep();
     c = 22; 
     console.log(a) // Uncaught TypeErrorL assignment to constant variable
 
-*/
+
     
 /*
 
@@ -115,6 +117,11 @@ sleep();
 */
 
 console.log(a) // undefined
+var a = 10;
+
+// above code interpreted to browser like this:
+var a;
+console.log(a)
 var a = 10;
 
 
