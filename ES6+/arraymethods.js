@@ -40,12 +40,6 @@ console.log(Array.from(uniqueValues)) // [10, 50, 30, 40]
 
 
 
-
-
-
-
-
-
 /*
 Array Methods --> Find & FindIndex 
 These both methods return an object!
