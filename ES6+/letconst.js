@@ -29,7 +29,8 @@ run();
 
 /*
 
-2) Variable Shadowing: if you have 2 variables with the same name but 1 in a certain scope(inner scope) and the other one in its outer scope then when you call that variable, the value assigned to the variable in the inner scope will be stored in the variable in the memory space! this is called as variable shadowing or shadowing!
+2) Variable Shadowing: if you have 2 variables with the same name but 1 in a certain scope(inner scope) and the other one in its outer scope then when you call that variable, 
+the value assigned to the variable in the inner scope will be stored in the variable in the memory space! this is called as variable shadowing or shadowing!
 
 */
 function sleep(){
