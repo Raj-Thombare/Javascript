@@ -61,18 +61,6 @@ for(const [name,type] of cricketers){
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 Array Methods --> Find & FindIndex 
 These both methods return an object!
