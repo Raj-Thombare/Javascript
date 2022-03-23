@@ -6,7 +6,7 @@
     --> Let and Const are Block-scoped while var is Function-scoped!
     --> Scope: scope is a section/region in your program where a variable have its existence or valid! and beyond that region it's not accessible.
      --> let and const are stored in separate memory space while var is stored in global object memory space that's why var variables are accessible outside the scope!
-*/
+
 
 if(true){
     let a = 10;
@@ -25,7 +25,7 @@ function run(){
 console.log(x) // ReferenceError: x is not defined
 run();
 
-
+*/
 
 /*
 
@@ -33,17 +33,37 @@ run();
 the value assigned to the variable in the inner scope will be stored in the variable in the memory space! this is called as variable shadowing or shadowing!
 
 */
-function sleep(){
-    var a = 100;
-    if(true){
-        let a = 10; // here inner scope a is shadowing outer scope a!
-        console.log(a) // 10
-    }
+// function sleep(){
+//     var a = 100;
+//     if(true){
+//         let a = 10; // here inner scope a is shadowing outer scope a!
+//         console.log(a) // 10
+//     }
     
-    console.log(a) // 100
-}
+//     console.log(a) // 100
+// }
 
-sleep();
+// sleep();
+
+// function myFunc() {
+//     var my_var = 'test';
+//     if (true) {
+//         let my_var = 'new test';
+//         console.log(my_var); // new test
+//     }
+//     console.log(my_var); // test
+// }
+// myFunc();
+
+// function myFunc() {
+//     var my_var = 'test';
+//     if (true) {
+//         var my_var = 'new test';
+//         console.log(my_var); // new test
+//     }
+//     console.log(my_var); // new test
+// }
+// myFunc();
 
 /* --> Illegal Shadowing: you can shadow var with let but you cannot shadow let with var, that is known as illegal shadowing!
 
@@ -94,7 +114,7 @@ sleep();
 
 5) Re-initialization:
   --> you cannot reinitialize or update const unlike let & var!
-*/
+
   var a = 10;
     a = 22; 
     console.log(a) //22
@@ -106,7 +126,7 @@ sleep();
     const c = 10;
     c = 22; 
     console.log(a) // Uncaught TypeErrorL assignment to constant variable
-
+*/
 
     
 /*
@@ -115,7 +135,7 @@ sleep();
    --> let, var and const declaration are hoisted!
    --> let and const are hoisted in Temporal Dead Zone!
 
-*/
+
 
 console.log(a) // undefined
 var a = 10;
@@ -125,7 +145,7 @@ var a;
 console.log(a)
 var a = 10;
 
-
+*/
 
 
 
