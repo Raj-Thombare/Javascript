@@ -132,8 +132,8 @@ the value assigned to the variable in the inner scope will be stored in the vari
 /*
 
 6) Hoisting: Hoisting is a phenomena when you access variables or functions even before you have initialized them!
-   --> let, var and const declaration are hoisted!
-   --> let and const are hoisted in Temporal Dead Zone!
+   --> var allows hoisting but let, const does not!
+   --> let and const are hoisted  differently i.e, in Temporal Dead Zone!
 
 
 
